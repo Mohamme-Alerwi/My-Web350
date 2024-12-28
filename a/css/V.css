@@ -1,7 +1,7 @@
 body {
 
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: rgba(58, 55, 55, 0.441);
     margin: 0;
     padding: 0;
     direction: rtl;
@@ -52,7 +52,9 @@ nav ul li a:hover {
 }
 
 main {
+    background-color: #ff9800;
     padding: 20px;
+
 }
 
 .video-gallery {
@@ -67,12 +69,14 @@ main {
 }
 
 main h1 {
+    font-size: large;
     text-align: center;
     color: red;
     background-color: rgb(57, 47, 47);
-    width: 100%;
+    width: 40%;
     border-radius: 20px;
     margin: 20px 0;
+    margin-right: 20%;
     padding: 15px;
     transition: background-color 0.3s ease;
 }
@@ -120,9 +124,32 @@ video {
     width: 50%;
 }
 
-h1#btn_1:hover,
-h1#btn_2:hover,
-h1#btn_3:hover,
-h1#btn_4:hover {
-    background-color: #ff9800;
+
+
+
+.movie {
+    border: 1px solid #444;
+    padding: 10px;
+    flex: 1;
+    width: 30%;
+    height: 9%;
+    border-radius: 20%;
+
+}
+
+.movies {
+
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    overflow-x: auto;
+}
+
+.movie img {
+    width: 100%;
+    border-radius: 20%;
+}
+
+.movie p {
+    margin: 10px 0 0;
 }
